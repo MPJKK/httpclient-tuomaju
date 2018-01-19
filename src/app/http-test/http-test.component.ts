@@ -42,11 +42,7 @@ export class HttpTestComponent implements OnInit {
 
     getMapApi() {
 
-        interface MyInterface {
-            any: string;
-        }
-
-        this.http.get<MyInterface>(this.testiOsoite + '/photos/').subscribe((data) => {
+        this.http.get(this.testiOsoite + '/photos/').subscribe((data) => {
             console.log(data);
             this.testiTulos = data;
         });
