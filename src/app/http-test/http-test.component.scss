@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+
+:host ul{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+}
+
+
+:host li {
+
+  background-color: #28B463;
+  box-shadow: inset 0px 0px 66px -16px rgba(85, 22, 19, 0.33);
+  padding: 1em;
+  margin: 1em;
+  list-style: none;
+  color: #F2F3F4;
+}

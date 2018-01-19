@@ -1,3 +1,22 @@
+<!--
+
 <p>
-  {{tulos}}
+  {{ tulos }}
 </p>
+<img [src]="apiTulos">
+
+-->
+<ul>
+  <li *ngFor="let item of testiTulos">
+    albumId: {{item.albumId}}
+    <br>
+    Id: {{item.id}}
+    <br><br>
+    Title: {{item.title}}
+    <br><br>
+    url: {{item.url}}
+    <br>
+    thumbnailUrl: {{item.thumbnailUrl}}
+    <br>
+  </li>
+</ul>
